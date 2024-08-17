@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="img1.jpg" alt="Image 1" class="gallery-image" onclick="openModal('img1.jpg')">
+        </div>
+        <div class="gallery-item">
+            <img src="img2.jpg" alt="Image 2" class="gallery-image" onclick="openModal('img2.jpg')">
+        </div> 
+        <div class="gallery-item">
+          <img src="image3.jpg" alt="Image 3" class="gallery-image" onclick="openModal('image3.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img3.jpg" alt="Image 4" class="gallery-image" onclick="openModal('img3.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img5.jpg" alt="Image 5" class="gallery-image" onclick="openModal('img5.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img6.jpg" alt="Image 6" class="gallery-image" onclick="openModal('img6.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="image2.jpg" alt="Image 7" class="gallery-image" onclick="openModal('image2.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="image.jpg" alt="Image 8" class="gallery-image" onclick="openModal('image.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img4.jpg" alt="Image 9" class="gallery-image" onclick="openModal('img4.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img7.jpg" alt="Image 10" class="gallery-image" onclick="openModal('img7.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img8.jpg" alt="Image 11" class="gallery-image" onclick="openModal('img8.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img9.jpg" alt="Image 12" class="gallery-image" onclick="openModal('img9.jpg')">
+      </div>
+      <div class="gallery-item">
+        <img src="img10.jpg" alt="Image 13" class="gallery-image" onclick="openModal('img10.jpg')">
+      </div>        
+    </div>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-image" class="modal-content" src="">
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
